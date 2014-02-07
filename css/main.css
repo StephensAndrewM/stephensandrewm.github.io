@@ -1,0 +1,171 @@
+html {
+	height:100%;
+	background: url(http://lorempixel.com/1920/1080/city) black no-repeat center center fixed;
+	background-size: cover;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: "Noto Sans", Arial, sans-serif;
+	height:100%;
+}
+
+h1, h2, h3, h4 {
+	margin:0;
+}
+
+a:link, a:visited {
+	color: #2679FF;
+	text-decoration: none;
+	transition: 0.2s all ease;
+}
+
+a:hover {
+	color:white;
+}
+
+.wrapper {
+	width: 1000px;
+	margin:0 auto;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.column2 {
+	width: 46%;
+	margin:0 2%;
+	float:left;
+}
+
+a.actionbutton {
+	background: #2679FF;
+	color: white;
+	font-size: 14px;
+	display: block;
+	padding: 7px 0;
+	margin: 20px 5%;
+	width: 40%;
+	text-align: center;
+	float:left;
+	transition: 0.2s all ease;
+}
+
+a.actionbutton:hover {
+	background: #ce9a00;
+}
+
+.strong { font-weight: bold; }
+.em { font-style: italic; }
+
+/******************
+Header 
+******************/
+
+#pagetop {
+	background: #2679FF;
+	height:75px;
+	color:white;
+}
+
+#pagetop h1 {
+	font-weight:normal;
+	font-size:32px;
+	line-height:75px;
+	float:left;
+}
+
+#pagetop ul {
+	list-style: none;
+	float:right;
+	margin:0;
+}
+
+#pagetop li {
+	float: left;
+}
+
+#pagetop li a {
+	display: block;
+	padding: 0 15px;
+	margin: 0;
+	color:#D0E2FF;
+	line-height:75px;
+	transition: 0.2s all ease;
+}
+
+#pagetop li.current a {
+	color:white;
+}
+
+#pagetop li a:hover {
+	text-decoration: none;
+	background:#003EA2;
+}
+
+/******************
+Main Content Area
+******************/
+
+#main {
+	background: rgba(0,0,0,0.8);
+	padding:50px;
+	min-height:400px;
+	margin: 100px 0;
+	color:white;
+	
+}
+
+h1.mega-title {
+	font-size:48px;
+	color:#c0c0c0;
+	text-align: center;
+	margin-bottom:40px;
+	font-weight: normal;
+}
+
+#home #main p {
+	line-height:32px;
+	color: #c0c0c0;
+	text-align: center;
+}
+
+#home #main .column2 { margin:0 5%; }
+#home #main .columnA { width: 55%; }
+#home #main .columnB { width: 25%; }
+
+/******************
+Resume
+******************/
+
+h2.resume-title {
+	font-size:24px;
+	font-weight:normal;
+	color: #c0c0c0;
+	margin-top:20px;
+}
+
+ul.resume-list {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+.resume-list li {
+	margin:0;
+	padding:0;
+	margin-bottom:20px;
+	line-height:24px;
+}
+
+ul.resume-list-bullet {
+	list-style-type: circle;
+	margin:0;
+	padding:0 0 0 30px;
+}
+
+ul.resume-list-bullet li {
+	margin:0;
+}
