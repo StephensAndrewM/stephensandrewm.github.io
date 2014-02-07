@@ -168,4 +168,13 @@ ul.resume-list-bullet {
 
 ul.resume-list-bullet li {
 	margin:0;
+	line-height:24px;
+}
+
+/******************
+Bio
+******************/
+
+#bio p {
+	line-height: 32px;
 }
